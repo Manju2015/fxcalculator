@@ -1,5 +1,3 @@
-# fxcalculator
-
 FX Calculator is a console-based currency converter application
 
 The application allows a user to convert an amount in a specific currency to the equivalent amount in another currency.
