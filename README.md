@@ -38,7 +38,7 @@ USD=2 decimal places
 To execute use the following command > java -jar fxcalculator-jar-with-dependencies.jar
 Input should be provided in <ccy1> <amount1> in <ccy2> format.
 Sample output
-#############################################################################################################################
+##################################################################
 D:\workspace12\fxcalculator\target>java -jar fxcalculator-jar-with-dependencies.jar
 Input formats.
 1. For exchange rate: <ccy1> <amount1> in <ccy2>
@@ -59,15 +59,13 @@ Invalid input format. Please enter in below format
 <ccy1> <amount1> in <ccy2>
 %> q
 Exit!
-##############################################################################################################################
-
-
+##################################################################
 
 Reload exchange rate: change the exchange rate in the properties file and input "Reload exchange rate" it reload the cache 
 and subsequent request will have exchanged rate. Here you can not only chnage the exchange rate of existing currency but also 
 can add new conversions. Also decimal properties can be changed, it will also get reloaded.
 Below is an example when initially feed had AUDUSD=0.8371 then changed to AUDUSD=1  
-##############################################################################################################################
+###################################################################
 D:\workspace12\fxcalculator\target>java -jar fxcalculator-jar-with-dependencies.jar
 Input formats.
 1. For exchange rate: <ccy1> <amount1> in <ccy2>
